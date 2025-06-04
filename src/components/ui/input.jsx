@@ -1,1 +1,1 @@
-export const Input = (props) => <input {...props} className='w-full p-2 border rounded' />;
+export const Input = (props) => <input {...props} className='w-full p-2 border border-gray-300 rounded' />;

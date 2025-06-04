@@ -1,2 +1,2 @@
-export const Select = (props) => <select {...props} className='w-full p-2 border rounded'>{props.children}</select>;
+export const Select = (props) => <select {...props} className='w-full p-2 border border-gray-300 rounded'>{props.children}</select>;
 export const SelectItem = ({ value, children }) => <option value={value}>{children}</option>;
