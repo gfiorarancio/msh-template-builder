@@ -1,9 +1,2 @@
-import React from "react";
-
-export function Select({ children, ...props }) {
-  return <select className="w-full p-2 border rounded-lg" {...props}>{children}</select>;
-}
-
-export function SelectItem({ value, children }) {
-  return <option value={value}>{children}</option>;
-}
+export const Select = (props) => <select {...props} className='w-full p-2 border rounded'>{props.children}</select>;
+export const SelectItem = ({ value, children }) => <option value={value}>{children}</option>;
